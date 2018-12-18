@@ -1,0 +1,26 @@
+{
+  "name": "dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.3",
+    "nodeman": "^1.1.2",
+    "nodemon": "^1.17.5",
+    "sha256": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node1": "nodemon --watch ./ -e js ./networkNode.js 3001 http://localhost:3001",
+    "node2": "nodemon --watch ./ -e js ./networkNode.js 3002 http://localhost:3002",
+    "node3": "nodemon --watch ./ -e js ./networkNode.js 3003 http://localhost:3003",
+    "node4": "nodemon --watch ./ -e js ./networkNode.js 3004 http://localhost:3004",
+    "node5": "nodemon --watch ./ -e js ./networkNode.js 3005 http://localhost:3005"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
